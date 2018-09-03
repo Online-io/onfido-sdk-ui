@@ -18,7 +18,7 @@ export const uploadDocument = (data, token, onSuccess, onError) => {
     ...data,
     sdk_validations: JSON.stringify(validations)
   }
-  const endpoint = `${process.env.ONFIDO_API_URL}/v2/documents`
+  const endpoint = `${process.env.ONFIDO_API_URL}/v2/applicants/afcd7067-cda9-4efd-a97a-c9a7379cb03/documents`
   sendFile(endpoint, data, token, onSuccess, onError)
 }
 
