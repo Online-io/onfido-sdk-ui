@@ -3,7 +3,6 @@
 *.log
 build
 node_modules
-lib
 es
 /dist/style.css.map
 /dist/onfido.min.js.map
@@ -14,3 +13,4 @@ monster_rsa
 /dist/onfido.crossDevice.min.js
 /dist/onfido.crossDevice.min.js.map
 /dist/reports
+/.idea
